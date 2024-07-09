@@ -55,6 +55,8 @@ button:hover{
 }
 
 #imgBox{
+    display: grid;
+    justify-content: center;
     width: 360px;
     border-radius: 5px;
     overflow: hidden;
@@ -71,4 +73,8 @@ button:hover{
 #imgBox.show-img{
     max-height: 300px;
     margin: 10xp auto;
+}
+
+#qrImage {
+    display: none;
 }

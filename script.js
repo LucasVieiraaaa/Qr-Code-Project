@@ -8,5 +8,6 @@ function generateQR() {
         return;
     }
     qrImage.src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + encodeURIComponent(qrText.value);
-    imgBox.classList.add("show-img");
+    qrImage.style.display = "flex";
+    imgBox.classList.add("show-img"); 
 }
