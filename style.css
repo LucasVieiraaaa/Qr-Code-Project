@@ -1,10 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(27, 27, 27);
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
     margin: 0;
     font-size: 13px;
 
@@ -22,6 +22,32 @@ body {
     border-radius: 6px;
     gap: 20px;
     padding: 20px;
+}
+
+.container-second{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(33, 33, 33);;
+    width: 450px;
+    min-height: 100px;
+    height: auto;
+    border-radius: 6px;
+    padding: 20px;
+    color: #ffffff;
+}
+.container-second p{
+    font-size: 17px;
+}
+
+.container-second a{
+    color: #ffffff;
+    transition: 0.3s;
+    font-size: 12px;
+}
+
+.container-second a:hover{
+    color:#1988ff;
 }
 
 input[type="text"]{
@@ -77,4 +103,111 @@ button:hover{
 
 #qrImage {
     display: none;
+}
+
+.githublogo{
+    filter: brightness(2000%);
+    width: 150px;
+    height: 55px;
+}
+
+/* Responsivo para tablets */
+@media (max-width: 768px) {
+    .container, .container-second {
+        width: 80%;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    #imgBox {
+        width: 100%;
+    }
+
+    #imgBox img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/* Responsivo para celulares */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    .container, .container-second {
+        width: 90%;
+        padding: 15px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    #imgBox {
+        width: 100%;
+    }
+
+    #imgBox img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .container-second p {
+        font-size: 14px;
+    }
+
+    .container-second a {
+        font-size: 11px;
+    }
+
+    .githublogo {
+        width: 100px;
+        height: 35px;
+    }
+}
+
+/* Responsivo para pequenos celulares */
+@media (max-width: 320px) {
+    .container, .container-second {
+        width: 100%;
+        padding: 10px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        font-size: 11px;
+    }
+
+    #imgBox img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .container-second p {
+        font-size: 12px;
+    }
+
+    .container-second a {
+        font-size: 10px;
+    }
+
+    .githublogo {
+        width: 80px;
+        height: 30px;
+    }
 }
