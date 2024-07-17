@@ -31,13 +31,13 @@ body {
     background-color: rgb(33, 33, 33);;
     width: 450px;
     min-height: 100px;
-    height: auto;
+    height: 120px;
     border-radius: 6px;
     padding: 20px;
     color: #ffffff;
 }
 .container-second p{
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .container-second a{
@@ -107,8 +107,8 @@ button:hover{
 
 .githublogo{
     filter: brightness(2000%);
-    width: 150px;
-    height: 55px;
+    width: 140px;
+    height: 50px;
 }
 
 /* Responsivo para tablets */
@@ -135,7 +135,6 @@ button:hover{
     }
 }
 
-/* Responsivo para celulares */
 @media (max-width: 480px) {
     body {
         font-size: 12px;
@@ -177,7 +176,6 @@ button:hover{
     }
 }
 
-/* Responsivo para pequenos celulares */
 @media (max-width: 320px) {
     .container, .container-second {
         width: 100%;
