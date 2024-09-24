@@ -15,6 +15,7 @@ body {
     background-color: rgb(255, 255, 255);
     width: 95%;
     height: 65%;
+    margin: 3em;
     border-radius: 2em;
     max-height: 75%;
     padding: 20px;
