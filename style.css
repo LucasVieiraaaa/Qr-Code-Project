@@ -107,4 +107,7 @@ button:hover {
         width: 50em;
         min-width: 22em;
     }
+    .sup{
+        margin-top: 3em;
+    }
 }
