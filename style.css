@@ -13,18 +13,17 @@ body {
     display: flex;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    width: 95%;
+    width: 90%;
     height: 65%;
     margin: 3em;
     border-radius: 2em;
     max-height: 75%;
-    padding: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     flex-direction: column;
     align-items: center;
 }
 
-input[type="text"]{
+input[type="text"] {
     width: 350px;
     padding: 6px;
     border: 1px solid #ccc;
@@ -36,15 +35,17 @@ input[type="text"]{
     border: 0;
     padding: 1em;
     transition: 0.5s;
-    margin-bottom: 3em;
     background-color: rgb(245, 245, 245);
+    margin: 3em;
+
 }
 
-h2,h3{
+h2,
+h3 {
     color: rgb(124, 124, 124);
 }
 
-button{
+button {
     justify-content: center;
     background-color: #fab700;
     height: 50px;
@@ -54,15 +55,18 @@ button{
     border-radius: 1em;
     font-size: 13px;
     transition: 0.4s;
+    margin: 3em;
+
 }
-button:hover{
+
+button:hover {
     border-radius: 0em;
     background-color: #fab700;
     color: white;
     border: 0px solid;
 }
 
-#imgBox{
+#imgBox {
     display: grid;
     justify-content: center;
     width: 360px;
@@ -72,17 +76,23 @@ button:hover{
     height: 37%;
 }
 
-#imgBox img{
+#imgBox img {
     width: 150px;
     height: 150px;
     padding: 1em;
     background-color: white;
 }
-#imgBox.show-img{
+
+#imgBox.show-img {
     max-height: 46%;
     margin: 10xp auto;
 }
 
 #qrImage {
     display: none;
+}
+
+.qr-icon {
+    width: 10em;
+    margin: 1em;
 }
