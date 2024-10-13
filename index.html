@@ -17,7 +17,8 @@
             <h3 class="better-h3" id="insertLink"></h3>
                 <input type="text" placeholder="Inform the link here" id="qrText" class="form-input" maxlength="1000">
             <div id="imgBox">
-                <img src="" id="qrImage">
+                <div id="loading" class="spinner" style="display:none;"></div> <!-- Círculo giratório -->
+                <img src="" id="qrImage" style="display:none;">
             </div>
             <button onclick="generateQR()">Generate QR Code</button>
         </div>
