@@ -4,7 +4,7 @@ let qrImage = document.getElementById("qrImage");
 
 let qrText = document.getElementById("qrText");
 
-let insertLink = "Insert Link below";
+let insertLink = "Insert link below";
 
 let loading = document.getElementById('loading');
 
